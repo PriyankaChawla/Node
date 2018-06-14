@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "package.json",
   "main": "index.js",
+
   "dependencies": {
+    "chai": "^4.1.2",
     "express": "^4.16.3",
-    "mongoose": "^5.1.5"
+    "mocha": "^5.2.0",
+    "mongoose": "^5.1.5",
+    "nodejslogger": "^1.2.3"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC"
